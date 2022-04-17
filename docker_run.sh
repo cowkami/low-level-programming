@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -it --rm -v $(pwd)/src:/home/src low-level-programming bash
+docker run -it --rm -v $(pwd):/home low-level-programming bash
